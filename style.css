@@ -92,6 +92,16 @@ form > section:last-of-type section:nth-of-type(2) {
   font-size: 0.9rem;
 }
 
+form > section:nth-child(2) > section:nth-child(1) input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+form > section:nth-child(2)  > section:nth-child(2)  input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 form input[type="text"],
 form input[type="email"] {
   height: 38px;
